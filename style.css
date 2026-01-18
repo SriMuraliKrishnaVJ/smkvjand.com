@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 2px solid #ddd;
+}
+.main-footer {
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 2px solid #ddd;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
